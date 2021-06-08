@@ -14,4 +14,5 @@ module.exports = {
         'no-console': 'error',
         'prefer-const': 'error',
     },
+    ignorePatterns: ['build/**/*'],
 };
