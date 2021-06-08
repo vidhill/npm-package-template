@@ -15,4 +15,15 @@ module.exports = {
         'prefer-const': 'error',
     },
     ignorePatterns: ['build/**/*'],
+    overrides: [
+        {
+            // unit test overrides
+            files: '*.spec.js',
+            plugins: ['jest'],
+            extends: ['plugin:jest/recommended'],
+            env: {
+                jest: true,
+            },
+        },
+    ],
 };

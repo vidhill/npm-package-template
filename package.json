@@ -31,6 +31,7 @@
         "babel-preset-latest-node": "^5.5.1",
         "eslint": "^7.28.0",
         "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-jest": "^24.3.6",
         "eslint-plugin-prettier": "^3.4.0",
         "husky": "^6.0.0",
         "jest": "^27.0.4",
