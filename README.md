@@ -2,6 +2,31 @@
 
 Template repo for npm packages
 
+Add description
+
+```bash
+$ npm install package --save # replace with real npm package name
+```
+
+## Setup
+
+```javascript
+// add relevant setup here
+```
+
+## Usage
+
+```javascript
+// add example usage here
+```
+
+### Outputs
+
+```html
+<!-- add example output here -->
+<div></div>
+```
+
 ### Reminder
 
 -   change `name` in `package.json`
