@@ -3,8 +3,7 @@
         [
             "latest-node",
             {
-                "target": "current",
-                "modules": "cjs"
+                "target": "current"
             }
         ]
     ]
