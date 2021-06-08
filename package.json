@@ -31,6 +31,7 @@
         "type": "git",
         "url": "git+https://github.com/vidhill/npm-package-template.git"
     },
+    "keywords": [],
     "devDependencies": {
         "@babel/cli": "^7.14.3",
         "@babel/core": "^7.14.3",
