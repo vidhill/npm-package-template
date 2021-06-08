@@ -1,6 +1,7 @@
 # npm-package-template
 
-Template repo for npm packages
+Repo intended to be used as a template for npm packages,  
+with opinionated build setup `babel`, `eslint`, `jest`, `husky` etc pre-configured
 
 Add description
 
