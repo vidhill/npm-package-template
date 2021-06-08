@@ -18,7 +18,8 @@
         "lint:md": "npm run lint-md -- --check",
         "pre-push": "npm-run-all lint test",
         "prepublish": "npm run pre-push; npm run build",
-        "release": "np"
+        "release": "np",
+        "prepare": "husky install"
     },
     "author": "David Hill",
     "bugs": {
