@@ -18,7 +18,7 @@ module.exports = {
     overrides: [
         {
             // unit test overrides
-            files: '*.spec.js',
+            files: ['jest-config/*', '*.spec.js'],
             plugins: ['jest'],
             extends: ['plugin:jest/recommended'],
             env: {
