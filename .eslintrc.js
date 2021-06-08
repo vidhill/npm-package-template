@@ -3,7 +3,7 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    plugins: ['prettier'],
+    plugins: ['prettier', 'import'],
     extends: 'eslint:recommended',
     parserOptions: {
         ecmaVersion: 12,
@@ -13,6 +13,7 @@ module.exports = {
         'prettier/prettier': 'error',
         'no-console': 'error',
         'prefer-const': 'error',
+        'import/no-unresolved': 'error',
     },
     ignorePatterns: ['build/**/*'],
     overrides: [
