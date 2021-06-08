@@ -5,7 +5,9 @@ Template repo for npm packages
 ### Reminder
 
 -   change `name` in `package.json`
--   change `tags` in `package.json`
+-   change `keywords` in `package.json`
+-   update `bugs` url in `package.json`
+-   update `homepage` url in `package.json`
 -   Remove `package-lock.json` from `.gitignore`
 
 ## Development
