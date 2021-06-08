@@ -16,7 +16,7 @@
         "lint-md": "prettier  \"**/*.md\"",
         "fix:md": "npm run lint-md -- --write",
         "lint:md": "npm run lint-md -- --check",
-        "pre-push": "npm run lint",
+        "pre-push": "npm-run-all lint test",
         "prepublish": "npm run pre-push; npm run build",
         "release": "np"
     },
