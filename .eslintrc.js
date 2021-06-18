@@ -3,7 +3,7 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    plugins: ['prettier', 'import'],
+    plugins: ['prettier', 'import', 'unicorn'],
     extends: 'eslint:recommended',
     parserOptions: {
         ecmaVersion: 12,
