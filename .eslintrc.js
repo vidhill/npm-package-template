@@ -14,6 +14,9 @@ module.exports = {
         'no-console': 'error',
         'prefer-const': 'error',
         'import/no-unresolved': 'error',
+        'no-useless-rename': 'error',
+        'unicorn/no-abusive-eslint-disable': 'error',
+        'unicorn/explicit-length-check': 'error',
     },
     ignorePatterns: ['build/**/*'],
     overrides: [
