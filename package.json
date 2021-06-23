@@ -37,6 +37,7 @@
         "@babel/core": "^7.14.3",
         "babel-preset-latest-node": "^5.5.1",
         "eslint": "^7.28.0",
+        "eslint-config-vidhill": "^1.0.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-config-vidhill": "^2.0.1",
         "eslint-plugin-eslint-comments": "^3.2.0",
