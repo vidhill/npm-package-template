@@ -53,5 +53,9 @@
         "prettier": "^2.3.1",
         "rimraf": "^3.0.2",
         "watch": "^0.13.0"
+    },
+    "jest-junit": {
+        "outputDirectory": "jest-report",
+        "outputName": "junit.xml"
     }
 }
