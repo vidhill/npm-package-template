@@ -30,11 +30,13 @@ $ npm install package --save # replace with real npm package name
 
 ### Reminder
 
--   change `name` in `package.json`
--   change `keywords` in `package.json`
--   update `bugs` url in `package.json`
--   update `homepage` url in `package.json`
--   Remove `package-lock.json` from `.gitignore`
+Run
+
+```bash
+$ npx @vidhill/package-json-editor
+```
+
+\- to update the `package.json`
 
 ## Development
 
